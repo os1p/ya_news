@@ -13,10 +13,10 @@ python manage.py loaddata news.json
 
 Разверните на своём компьютере проект YaNews:
 На своём компьютере в директории с проектами создайте папку для проекта YaNews.
-```Склонируйте проект YaNews из репозитория: git clone …```
-```Создайте виртуальное окружение python -m venv venv```
-```Запустите виртуальное окружение и установите зависимости из файла requirements.txt: pip install -r requirements.txt```
-Миграции уже созданы, выполните их: ```python manage.py migrate.```
-Cоздайте суперпользователя: ```python manage.py createsuperuser.```
-Для заполнения базы данных новостями, выполните команду ```python manage.py loaddata news.json.```
+Склонируйте проект YaNews из репозитория: ```bash git clone …```
+Создайте виртуальное окружение  ```bash python -m venv venv```
+Запустите виртуальное окружение и установите зависимости из файла ```bash requirements.txt: pip install -r requirements.txt```
+Миграции уже созданы, выполните их: ```bash python manage.py migrate.```
+Cоздайте суперпользователя: ```bash python manage.py createsuperuser.```
+Для заполнения базы данных новостями, выполните команду ```bash python manage.py loaddata news.json.```
 Запустите проект.
